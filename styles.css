@@ -68,3 +68,25 @@ btn:hover {
 	justify-content: center;
 	align-items: center;
 }
+
+.sales-points {
+	padding: 12vh 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.sales-point {
+	background-color: red;
+	flex-basis: 30%;
+}
+
+.cta {
+	background-color: var(--black);
+	background-image: url(/photo-1682687981807-35e55307a7bb.avif);
+	background-blend-mode: multiply;
+	background-size: cover;
+	padding: 10vh;
+	color: var(--white);
+}
